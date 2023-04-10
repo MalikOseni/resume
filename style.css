@@ -17,9 +17,11 @@ body {
   line-height: 1.6;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(./blob-scene-haikei.svg) center/cover no-repeat;
 }
 
 .card {
+  background: rgba(255, 255, 255, 0.2);
   width: 98%;
   max-width: 600px;
   display: flex;
@@ -29,7 +31,7 @@ body {
   padding: 0.7em;
   border-radius: 20px;
   color: aliceblue;
-  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.3);
 }
 
 img {
@@ -86,8 +88,8 @@ img {
 }
 
 .note {
-  color: rgb(164, 162, 162);
-  font-size: 0.65rem;
+  color: rgb(234, 226, 226);
+  font-size: 0.75rem;
   font-weight: 700;
   padding: 0 0.5rem;
   text-transform: none;
