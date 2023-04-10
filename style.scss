@@ -1,13 +1,13 @@
 @import "reset.scss";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(./blob-scene-haikei.svg) center /cover no-repeat;
     display: grid;
     place-content: center;
     min-height: 100dvh;
     line-height: 1.6;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
-    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(./blob-scene-haikei.svg) center /cover no-repeat;
 }
 
 .card{
