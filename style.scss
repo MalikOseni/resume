@@ -68,17 +68,22 @@ img{
     padding-bottom: .2rem;
 }
 .note{
-    font-size: .78rem;
+    color: rgb(164, 162, 162);
+    font-size: .65rem;
     font-weight: 700;
     padding: 0 .5rem;
-    opacity: .4;
     text-transform: none;
     text-align: start;
     white-space: wrap;
-    text-indent: 20px;
+    text-align: justify;
+    text-indent: 8px;
 }
-.note a{
-    color: aqua;
+span .link{
+    opacity: 1;
+    color: aquamarine;
+}
+span .link:hover{
+    color: #00ffff;
 }
 .interest{
     font-size:.75rem;
@@ -111,12 +116,11 @@ img{
         margin-left: 2rem;
     }
     .note{
-        font-size: .8rem;
+        font-size: .7rem;
         line-height: 17px;
         letter-spacing: 2px;
-        text-align: left;
+        text-align: start;
         padding: 0;
-        padding-bottom: .6rem;
     }
     .profile-name::after{
         margin-left: 0;
