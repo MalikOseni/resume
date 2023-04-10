@@ -13,7 +13,7 @@
 body {
   display: grid;
   place-content: center;
-  min-height: 100vh;
+  min-height: 100dvh;
   line-height: 1.6;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
@@ -86,18 +86,24 @@ img {
 }
 
 .note {
-  font-size: 0.78rem;
+  color: rgb(164, 162, 162);
+  font-size: 0.65rem;
   font-weight: 700;
   padding: 0 0.5rem;
-  opacity: 0.4;
   text-transform: none;
   text-align: start;
   white-space: wrap;
-  text-indent: 20px;
+  text-align: justify;
+  text-indent: 8px;
 }
 
-.note a {
-  color: aqua;
+span .link {
+  opacity: 1;
+  color: aquamarine;
+}
+
+span .link:hover {
+  color: #00ffff;
 }
 
 .interest {
@@ -132,12 +138,11 @@ img {
     margin-left: 2rem;
   }
   .note {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 17px;
     letter-spacing: 2px;
-    text-align: left;
+    text-align: start;
     padding: 0;
-    padding-bottom: 0.6rem;
   }
   .profile-name::after {
     margin-left: 0;
